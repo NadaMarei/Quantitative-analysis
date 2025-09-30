@@ -369,7 +369,7 @@ def main():
                 
                 with col_right:
                     st.write("**Scatter Plot:**")
-                    st.image(result['plot_path'], use_column_width=True)
+                    st.image(result['plot_path'], use_container_width=True)
                 
                 st.markdown("---")
             
@@ -386,4 +386,5 @@ def main():
                     st.markdown('</div>', unsafe_allow_html=True)
 
 if __name__ == '__main__':
+
     main()
